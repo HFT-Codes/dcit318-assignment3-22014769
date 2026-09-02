@@ -157,13 +157,13 @@ dotnet run
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - **.NET 10.0** or later
 - **C# 12** or later
 - Windows/Linux/macOS with .NET SDK installed
 
-## 📦 Building All Projects
+## Building All Projects
 
 ```bash
 # Build all solutions

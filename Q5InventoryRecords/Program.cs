@@ -98,8 +98,8 @@ public class InventoryApp
     {
         _logger.Add(new InventoryItem(1, "Keyboard", 20, DateTime.Now));
         _logger.Add(new InventoryItem(2, "Mouse", 30, DateTime.Now));
-        _logger.Add(new InventoryItem(3, "Monitor", 15, DateTime.Now));
-        _logger.Add(new InventoryItem(4, "USB Cable", 40, DateTime.Now));
+        _logger.Add(new InventoryItem(3, "Powerbank", 15, DateTime.Now));
+        _logger.Add(new InventoryItem(4, "Pendrive", 40, DateTime.Now));
     }
 
     // Save inventory to disk
