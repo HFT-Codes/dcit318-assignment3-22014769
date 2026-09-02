@@ -1,0 +1,24 @@
+# Build results
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+
+# Runtime
+*.dll
+*.exe
+*.pdb
+
+# Temporary files
+*.tmp
+*.log
+*.txt
+student_input.txt
+student_report.txt
+inventory_data.json
+
+# OS
+.DS_Store
+Thumbs.db
