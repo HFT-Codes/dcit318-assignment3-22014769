@@ -2,7 +2,7 @@
 
 This repository contains solutions for 5 comprehensive C# programming assignments covering interfaces, records, sealed classes, generics, collections, exception handling, and file operations.
 
-## 📋 Project Overview
+## Project Overview
 
 | Question | Topic | Folder | Key Concepts |
 |----------|-------|--------|--------------|
@@ -14,7 +14,24 @@ This repository contains solutions for 5 comprehensive C# programming assignment
 
 ---
 
-## 🎯 Question 1: Finance Management System
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/HFT-Codes/dcit318-assignment3-22014769.git
+cd dcit318-assignment3-22014769
+```
+
+### Navigate to a Question
+
+```bash
+cd Q1FinanceApp  # or Q2HealthSystem, Q3WarehouseInventory, etc.
+```
+
+---
+
+## Question 1: Finance Management System
 
 **Folder:** `Q1FinanceApp`
 
@@ -40,7 +57,7 @@ dotnet run
 
 ---
 
-## 🏥 Question 2: Healthcare Management System
+## Question 2: Healthcare Management System
 
 **Folder:** `Q2HealthSystem`
 
@@ -64,7 +81,7 @@ dotnet run
 
 ---
 
-## 📦 Question 3: Warehouse Inventory Management
+## Question 3: Warehouse Inventory Management
 
 **Folder:** `Q3WarehouseInventory`
 
@@ -90,7 +107,7 @@ dotnet run
 
 ---
 
-## 📊 Question 4: Student Result Processing
+## Question 4: Student Result Processing
 
 **Folder:** `Q4StudentResults`
 
@@ -115,7 +132,7 @@ dotnet run
 
 ---
 
-## 📝 Question 5: Inventory Record System
+## Question 5: Inventory Record System
 
 **Folder:** `Q5InventoryRecords`
 
@@ -157,7 +174,7 @@ cd ../Q4StudentResults && dotnet build
 cd ../Q5InventoryRecords && dotnet build
 ```
 
-## 🚀 Running All Projects
+## Running All Projects
 
 ```bash
 # Run each project individually
@@ -168,7 +185,7 @@ cd Q4StudentResults && dotnet run
 cd Q5InventoryRecords && dotnet run
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 dcit318-assignment3-22014769/
@@ -190,29 +207,3 @@ dcit318-assignment3-22014769/
 ├── .gitignore
 └── README.md
 ```
-
-## 🎓 Learning Outcomes
-
-After completing these assignments, you will understand:
-
-✅ **Object-Oriented Design** - Classes, inheritance, interfaces, sealed classes
-✅ **Records & Immutability** - Using records for data representation
-✅ **Generics & Type Safety** - Generic classes and constraints
-✅ **Collections** - List, Dictionary, and their operations
-✅ **Exception Handling** - Custom exceptions and try-catch patterns
-✅ **File I/O** - Reading and writing files with StreamReader/StreamWriter
-✅ **Design Patterns** - Repository pattern, factory pattern
-✅ **JSON Serialization** - Saving and loading data with JSON
-
-## 📝 Notes
-
-- Each question folder is a standalone .NET console application
-- Build artifacts (bin/, obj/) are excluded in `.gitignore`
-- All code includes concise comments for clarity
-- Exception handling is demonstrated in Q3 and Q4
-
-## 👤 Student ID: 22014769
-
----
-
-**Last Updated:** September 2, 2026
